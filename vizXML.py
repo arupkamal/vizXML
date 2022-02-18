@@ -55,3 +55,4 @@ class vizXML:
         self.dot.graph_attr['layout']= 'dot'
         self.dot.render(f'{self.diaName}.gv', view=True) 
         
+# vizXML(r'sample.xml', 'sample.xml')
