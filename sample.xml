@@ -1,0 +1,622 @@
+<ProductionSchedule	xmlns:erp="http://sample.data" 	xmlns:inp2="http://www.wbf.org/xml/B2MML-V0401">
+	<Description/>
+-
+	<Location>
+		<EquipmentID/>
+		<EquipmentElementLevel/>
+	</Location>
+	<PublishedDate>2017-04-15T09:30:00</PublishedDate>
+
+
+-
+	<ProductionRequest>
+		<ID>32847248</ID>
+		<Description>32847248</Description>
+
+
+-
+		<Location>
+			<EquipmentID>OU_D86085_US</EquipmentID>
+			<EquipmentElementLevel>Site</EquipmentElementLevel>
+		</Location>
+		<StartTime>2017-04-22T00:00:00</StartTime>
+		<EndTime>2014-04-22T00:00:00</EndTime>
+		<Priority>0</Priority>
+
+
+-
+		<SegmentRequirement>
+			<ID>ROUTE</ID>
+			<ProductSegmentID/>
+			<ProcessSegmentID/>
+			<Description/>
+
+
+-
+			<Location>
+				<EquipmentID/>
+				<EquipmentElementLevel/>
+			</Location>
+			<EarliestStartTime>2017-04-22T00:00:00</EarliestStartTime>
+			<LatestEndTime>2014-04-22T00:00:00</LatestEndTime>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>ProductCategory</ID>
+
+
+-
+					<Value>
+						<ValueString>CAPACITORSA</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description/>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>RouteTemplate</ID>
+
+
+-
+					<Value>
+						<ValueString>CapacitorRoute</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description/>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<MaterialProducedRequirement>
+				<MaterialClassID/>
+				<MaterialDefinitionID>GEEC3MA0025EMZI </MaterialDefinitionID>
+				<MaterialLotID>SERNUM1</MaterialLotID>
+				<MaterialLotID>SERNUM2</MaterialLotID>
+				<MaterialLotID>SERNUM3</MaterialLotID>
+				<MaterialSubLotID/>
+				<Description/>
+
+
+-
+				<Quantity>
+					<QuantityString>3</QuantityString>
+					<DataType>float</DataType>
+					<UnitOfMeasure/>
+				</Quantity>
+
+
+-
+				<MaterialProducedRequirementProperty>
+					<ID>WOStatus</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>Released</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialProducedRequirementProperty>
+
+
+-
+				<MaterialProducedRequirementProperty>
+					<ID>MaterialAvailabilityDate</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>2017-04-22T00:00:00</ValueString>
+						<DataType>DateTime</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialProducedRequirementProperty>
+
+
+-
+				<MaterialProducedRequirementProperty>
+					<ID>ParentOrder</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>SO2367523</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialProducedRequirementProperty>
+			</MaterialProducedRequirement>
+		</SegmentRequirement>
+
+
+-
+		<SegmentRequirement>
+			<ID>10</ID>
+			<ProductSegmentID/>
+			<ProcessSegmentID/>
+			<Description>Wind Pack</Description>
+
+
+-
+			<Location>
+				<EquipmentID>WIND</EquipmentID>
+				<EquipmentElementLevel>WorkCenter</EquipmentElementLevel>
+			</Location>
+			<EarliestStartTime>2017-04-15T12:00:00</EarliestStartTime>
+			<LatestEndTime>2017-04-15T12:15:00</LatestEndTime>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>Priority</ID>
+
+
+-
+					<Value>
+						<ValueString>10</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description/>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>LaborTime</ID>
+
+
+-
+					<Value>
+						<ValueString>210</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description/>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>DOCUMENTS</ID>
+
+
+-
+					<Value>
+						<ValueString>http:/grid.ge.com/485765/abc.pdf</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description>Document 1</Description>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>DOCUMENTS</ID>
+
+
+-
+					<Value>
+						<ValueString>http:/grid.ge.com/485765/abc2.pdf</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description>Document 2</Description>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<EquipmentRequirement>
+
+
+-
+				<Location>
+					<EquipmentID>FIX_LT_ADJ</EquipmentID>
+					<EquipmentElementLevel>WorkCell</EquipmentElementLevel>
+				</Location>
+			</EquipmentRequirement>
+
+
+-
+			<MaterialProducedRequirement>
+				<MaterialClassID/>
+				<MaterialDefinitionID/>
+				<MaterialSubLotID/>
+				<Description/>
+
+
+-
+				<Quantity>
+					<QuantityString/>
+					<DataType>string</DataType>
+					<UnitOfMeasure/>
+				</Quantity>
+			</MaterialProducedRequirement>
+
+
+-
+			<MaterialConsumedRequirement>
+				<MaterialClassID/>
+				<MaterialDefinitionID>308A2463BD067</MaterialDefinitionID>
+				<MaterialSubLotID/>
+				<Description/>
+
+
+-
+				<Quantity>
+					<QuantityString>1</QuantityString>
+					<DataType>float</DataType>
+					<UnitOfMeasure>EA</UnitOfMeasure>
+				</Quantity>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>GEDS_Drawing_Reference</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>1</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>BOM_SEQUENCE</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>1</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>GEDS_Position</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>POS A</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>IS_REQUIRES_CONSUMPTION</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>true</ValueString>
+						<DataType>boolean</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>GEDS_IsPickable</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>true</ValueString>
+						<DataType>boolean</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>GEDS_BOM_Location</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>A123</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>GEDS_JumperSetting</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>PL01</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+			</MaterialConsumedRequirement>
+
+
+-
+			<MaterialConsumedRequirement>
+				<MaterialClassID/>
+				<MaterialDefinitionID>308A309800048</MaterialDefinitionID>
+				<MaterialSubLotID/>
+				<Description/>
+
+
+-
+				<Quantity>
+					<QuantityString>1</QuantityString>
+					<DataType>float</DataType>
+					<UnitOfMeasure>EA</UnitOfMeasure>
+				</Quantity>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>GEDS_Drawing_Reference</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>3</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>BOM_SEQUENCE</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>2</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>IS_REQUIRES_CONSUMPTION</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>false</ValueString>
+						<DataType>boolean</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+			</MaterialConsumedRequirement>
+		</SegmentRequirement>
+
+
+-
+		<SegmentRequirement>
+			<ID>20</ID>
+			<ProductSegmentID/>
+			<ProcessSegmentID/>
+			<Description>Ultrasonic Weld</Description>
+
+
+-
+			<Location>
+				<EquipmentID>WIND_WELD</EquipmentID>
+				<EquipmentElementLevel>WorkCenter</EquipmentElementLevel>
+			</Location>
+			<EarliestStartTime>2017-04-15T12:00:00</EarliestStartTime>
+			<LatestEndTime>2017-04-15T12:15:00</LatestEndTime>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>Priority</ID>
+
+
+-
+					<Value>
+						<ValueString>20</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description/>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>LaborTime</ID>
+
+
+-
+					<Value>
+						<ValueString>100</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description/>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>DOCUMENTS</ID>
+
+
+-
+					<Value>
+						<ValueString>http:/grid.ge.com/485765/abc.pdf</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description>Document 1</Description>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<ProductionParameter>
+
+
+-
+				<Parameter>
+					<ID>DOCUMENTS</ID>
+
+
+-
+					<Value>
+						<ValueString>http:/grid.ge.com/485765/abc2.pdf</ValueString>
+						<DataType>string</DataType>
+						<UnitOfMeasure/>
+					</Value>
+					<Description>Document 2</Description>
+				</Parameter>
+			</ProductionParameter>
+
+
+-
+			<MaterialProducedRequirement>
+				<MaterialClassID/>
+				<MaterialDefinitionID/>
+				<MaterialSubLotID/>
+				<Description/>
+
+
+-
+				<Quantity>
+					<QuantityString/>
+					<DataType>string</DataType>
+					<UnitOfMeasure/>
+				</Quantity>
+			</MaterialProducedRequirement>
+
+
+-
+			<MaterialConsumedRequirement>
+				<MaterialClassID/>
+				<MaterialDefinitionID>ACCR</MaterialDefinitionID>
+				<MaterialSubLotID/>
+				<Description/>
+
+
+-
+				<Quantity>
+					<QuantityString>33.78</QuantityString>
+					<DataType>float</DataType>
+					<UnitOfMeasure>LB</UnitOfMeasure>
+				</Quantity>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>BOM_SEQUENCE</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>1</ValueString>
+						<DataType>integer</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+
+
+-
+				<MaterialConsumedRequirementProperty>
+					<ID>IS_REQUIRES_CONSUMPTION</ID>
+					<Description/>
+
+
+-
+					<Value>
+						<ValueString>false</ValueString>
+						<DataType>boolean</DataType>
+						<UnitOfMeasure/>
+					</Value>
+				</MaterialConsumedRequirementProperty>
+			</MaterialConsumedRequirement>
+		</SegmentRequirement>
+	</ProductionRequest>
+</ProductionSchedule>
