@@ -247,7 +247,7 @@ class VizXML:
 viz = VizXML(
     xml_file="sample.xml",
     dia_name="Company_XML",
-    font_name="DejaVu Sans",
+    font_name="Gill Sans",
     font_size=10,
     show_attribute_values=True,
     max_attribute_values=2,
